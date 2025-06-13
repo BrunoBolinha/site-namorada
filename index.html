@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dia dos Namorados</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="imagens/heart.ico" type="image/x-icon" />
+
+</head>
+<body>
+  <main>
+    <h1>Feliz Dia dos Namorados</h1>
+    <hr>
+    <h2>Tempo juntos:</h2>
+        <div id="tempoJuntos">
+      <div class="bloco-tempo">
+        <span class="valor" id="anos">00</span>
+        <span class="legenda">Anos</span>
+      </div>
+      <div class="bloco-tempo">
+        <span class="valor" id="meses">00</span>
+        <span class="legenda">Meses</span>
+      </div>
+      <div class="bloco-tempo">
+        <span class="valor" id="dias">00</span>
+        <span class="legenda">Dias</span>
+      </div>
+      <div class="bloco-tempo">
+        <span class="valor" id="horas">00</span>
+        <span class="legenda">Horas</span>
+      </div>
+      <div class="bloco-tempo">
+        <span class="valor" id="minutos">00</span>
+        <span class="legenda">Minutos</span>
+      </div>
+      <div class="bloco-tempo">
+        <span class="valor" id="segundos">00</span>
+        <span class="legenda">Segundos</span>
+      </div>
+    </div>
+
+
+    <hr>
+    <div class="mensagem">
+      <p>
+        Estar com você é uma das melhores partes da minha vida.
+        A convivência que a gente tem, as conversas, os momentos bobos, tudo isso faz diferença no meu dia a dia. Você me entende como ninguem consegue entender.
+      </p>
+      <p>
+        Gosto de como a gente se dá bem, mesmo nas diferenças. De como a gente aprende junto, resolve as coisas, ri das mesmas besteiras. É bom ter alguém com quem posso contar de verdade.
+        Às vezes nem precisa de muita coisa — só estar com você já é suficiente pra deixar tudo mais leve.
+      </p>
+      <p>
+        Agradeço por tudo que a gente tem construído até aqui. Pode não ser sempre perfeito, mas é real, e isso vale muito mais.
+        Te admiro demais, e sou muito grato por ter você na minha vida.
+      </p>
+    </div>
+    <hr>
+    
+
+    <div class="carousel-wrapper">
+      <div class="carousel-imgs">
+        <img src="fotos/foto-10.jpeg" alt="Foto 10" class="active" />
+        <img src="fotos/foto-2.jpeg" alt="Foto 2" />
+        <img src="fotos/foto-3.jpeg" alt="Foto 3" />
+        <img src="fotos/foto-4.jpeg" alt="Foto 4" />
+        <img src="fotos/foto-5.jpeg" alt="Foto 5" />
+        <img src="fotos/foto-6.jpeg" alt="Foto 6" />
+        <img src="fotos/foto-7.jpeg" alt="Foto 7" />
+        <img src="fotos/foto-8.jpeg" alt="Foto 8" />
+        <img src="fotos/foto-9.jpeg" alt="Foto 9" />
+        <img src="fotos/foto-1.jpeg" alt="Foto 1" />
+        <img src="fotos/foto-11.jpeg" alt="Foto 11" />
+        <img src="fotos/foto-12.jpeg" alt="Foto 12" />
+      </div>
+    </div>
+    <hr>
+  
+
+      <div id="player" class="player">
+        <h2 id="trackName">Nome da música</h2>
+
+        <audio id="audio" src=""></audio>
+        <div class="progress-container">
+          <span id="tempoAtual">0:00</span>
+          <div id="barraProgresso">
+            <div id="progresso"></div>
+          </div>
+          <span id="duracaoTotal">0:00</span>
+        </div>
+
+        <div class="controls">
+          <button id="prevTrack">⏮</button>
+          <button id="playPauseBtn">▶</button>
+          <button id="nextTrack">⏭</button>
+        </div>
+      </div>
+      <hr>
+      <div class="rodape">
+        <p>Espero de coração que você goste desse presente, foi feito de coração por alguem que te ama, espero poder te dar muito mais pelos próximos anos, você merece o mundo!</p>
+        <div class="ref">  
+          <div>- Dê: Bruno Bolinha</div>
+          <div>- Para: Ana Su</div>
+        </div>
+      </div>
+    </main>
+
+  <div class="hearts-container"></div>
+  <script src="script.js"></script>
+  
+</body>
+</html>
