@@ -149,7 +149,7 @@ html, body {
 
   @font-face {
     font-family: 'AboutHeart';
-    src: url('fonts/AboutHeart.otf') format('truetype');
+    src: url('fonts/AboutHeart.otf') format('opentype');
   }
 
   @media (max-width: 430px) {
