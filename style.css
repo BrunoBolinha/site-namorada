@@ -64,9 +64,9 @@ html, body {
 .carousel-wrapper {
   width: 100%;
   height: 300px;
-  margin: center;
+  margin: 20px auto 0 auto;
   position: relative;
-  margin-left: 20%;
+  margin-left: 0;
   margin-top: 20px;
   margin-bottom: -10px;
   border-radius: 5px;
@@ -158,9 +158,9 @@ html, body {
     }
 
     h1 {
-      font-size: 2em;
-      margin-top: -5em;
-      margin-bottom: -5em;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+      }
     }
 
     h2 {
@@ -172,6 +172,12 @@ html, body {
 
     .mensagem {
       padding: 0 1rem;
+    }
+
+    .carousel-wrapper {
+      width: 220px;
+      height: 280px;
+      margin: 20px auto;
     }
 
     .carousel {
@@ -205,7 +211,7 @@ html, body {
       font-size: 1.5rem;
       margin-top: -22px;
     }
-  }
+  
 
   .player {
   background: radial-gradient(circle, #8B0000 0%, #000000 60%);
